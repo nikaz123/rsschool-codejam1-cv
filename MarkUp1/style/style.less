@@ -12,40 +12,57 @@ body {
 
   .wrapper {
     display: flex;
-    width: 1000px;
-    height: 1250px;
+    width: 1024px;
+    height: 1500px;
     margin: 0 auto;
 
-    aside {
-      background-color: aquamarine;
+    
+    aside.contact_info {
+      background-color: #27d1b8;
       width: 30%;
-      height: 100%;
+      height: 1500px;
       border-radius: 25px 0 0 25px;
-      //font-family: 'Poiret One', cursive;
       font-weight: 500;
-      font-size: 12px;
+      font-size: 14px;
       text-transform: uppercase;
       letter-spacing: 2px;
-     // flex-direction: column;
-     // justify-content: space-between;
-     // align-items: center;
-      color: darkslategrey;
-      // display: flex;
-      //flex: 0 0 340px;
+      color: white;
+
 
       .contact_photo {
-        width: 120px;
-        height: 120px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
         padding: 40px 0;
+        margin-left: 75px;
       }
-
+      h2 {
+        border-bottom: 1px solid white;
+        font-size: 30px;
+        width: 80%;
+      }
       .contact {
+      margin-top: 10px;
 
+        i {
+          background-color: grey;
+          color: grey;
+          font-size: 14px;
+          width: 50px;
+          border-radius: 0 33px 33px 0;
+          line-height: 28px;
+          height: auto;
+
+          &:before {
+            float: right;
+            padding: 0 6px;
+
+          }
+        }
 
         .fa {
           background-color: white;
-          color: midnightblue;
+          color: rgba(56, 58, 55, 0.35);
           font-size: 14px;
           padding: 6px 0;
           width: 60px;
@@ -53,10 +70,9 @@ body {
 
         }
 
-
         .fab {
           background-color: white;
-          color: midnightblue;
+          color: rgba(56, 58, 55, 0.35);
           font-size: 14px;
           padding: 6px 0;
           width: 60px;
@@ -66,22 +82,165 @@ body {
         .contact_item {
           margin-top: 25px;
         }
-
-        .contact_header {
-          border-bottom: 2px solid white;
-          font-size: 20px;
-          width: 80%;
+        .item-info {
+          display: inline-block;
+          margin-left: 20px;
         }
 
+
+
+      }
+      .skills {
+        width: 80%;
+        letter-spacing: 2px;
+        margin-top: 40px;
+        margin-left: 25px;
+
+        .contact_skill-item {
+          margin-top: 20px;
+        }
+
+       h2 {
+          width: 100%;
+          border-bottom: 1px solid white;
+          font-size: 30px;
+          margin: 0 auto;
+          color: white;
+
+        }
+
+        .contact_skill-name {
+          text-transform: none;
+          font-weight: 200;
+        }
+
+        .line {
+          display: flex;
+          align-items: center;
+
+          .level {
+
+            height: 4px;
+            background-color: white;
+          }
+
+          .rest {
+
+            display: inline-flex;
+            height: 0;
+            background-color: white;
+          }
+
+          .level.html {
+            flex: 0 0 100%;
+          }
+
+          .rest.html {
+            flex: 0 0 0;
+          }
+
+          .level.css {
+            flex: 0 0 90%;
+          }
+
+          .rest.css {
+            flex: 0 0 10%;
+          }
+
+          .level.less {
+            flex: 0 0 95%;
+          }
+
+          .rest.less {
+            flex: 0 0 5%;
+          }
+
+          .level.wp {
+            flex: 0 0 70%;
+          }
+
+          .rest.wp {
+            flex: 0 0 30%;
+          }
+
+          .level.gh {
+            flex: 0 0 80%;
+          }
+
+          .rest.gh {
+            flex: 0 0 20%;
+          }
+
+          .level.js {
+            flex: 0 0 80%;
+          }
+
+          .rest.js {
+            flex: 0 0 20%;
+          }
+
+          .level.react {
+            flex: 0 0 50%;
+          }
+
+          .rest.react {
+            flex: 0 0 50%;
+          }
+
+        }
       }
 
     }
 
     main {
-      background-color: lightgray;
+      background-color: rgb(203, 255, 243);
       width: 70%;
       height: 100%;
       border-radius: 0 25px 25px 0;
+
+      .contact_name {
+        width: 600px;
+        height: 150px;
+        background-color: #27d1b8;
+        margin-top: 40px;
+        float: right;
+        border-radius: 67px 0 0 67px;
+
+        p {
+          font-size: 40px;
+          color: white;
+          text-transform: uppercase;
+          margin-left: 40px;
+          margin-top: 40px;
+        }
+      }
+ .sections_data {
+   margin-top: 250px;
+   margin-left: 80px;
+
+   h2 {
+     border-bottom: 2px solid black;
+     font-size: 26px;
+     width: 80%;
+     color: black;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     font-weight: 500;
+     margin-top: 20px;
+     font-family: 'Poiret One', cursive;
+
+   }
+
+   .summary {
+     width: 80%;
+     text-align: justify;
+     margin-top: 20px;
+     font-size: 20px;
+     font-family: 'Poiret One', cursive;
+     color: black;
+   }
+ }
+
 
     }
 
