@@ -20,13 +20,13 @@ body .wrapper aside.contact_info {
   height: 1500px;
   border-radius: 25px 0 0 25px;
   font-weight: 500;
-  font-size: 14px;
-  text-transform: uppercase;
+  font-size: 18px;
   letter-spacing: 2px;
   color: white;
+  font-family: 'Poiret One', cursive;
 }
 body .wrapper aside.contact_info .contact_photo {
-  width: 150px;
+  width: 160px;
   height: 150px;
   border-radius: 50%;
   padding: 40px 0;
@@ -36,6 +36,8 @@ body .wrapper aside.contact_info h2 {
   border-bottom: 1px solid white;
   font-size: 30px;
   width: 80%;
+  text-transform: uppercase;
+  margin-left: 20px;
 }
 body .wrapper aside.contact_info .contact {
   margin-top: 10px;
@@ -71,16 +73,19 @@ body .wrapper aside.contact_info .contact .fab {
 }
 body .wrapper aside.contact_info .contact .contact_item {
   margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
-body .wrapper aside.contact_info .contact .item-info {
-  display: inline-block;
+body .wrapper aside.contact_info .contact .contact_item .item-info {
   margin-left: 20px;
 }
 body .wrapper aside.contact_info .skills {
   width: 80%;
   letter-spacing: 2px;
-  margin-top: 40px;
+  margin-top: 200px;
   margin-left: 25px;
+  font-family: 'Poiret One', cursive;
 }
 body .wrapper aside.contact_info .skills .contact_skill-item {
   margin-top: 20px;
@@ -93,8 +98,10 @@ body .wrapper aside.contact_info .skills h2 {
   color: white;
 }
 body .wrapper aside.contact_info .skills .contact_skill-name {
-  text-transform: none;
   font-weight: 200;
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 body .wrapper aside.contact_info .skills .line {
   display: flex;
@@ -171,6 +178,7 @@ body .wrapper main .contact_name p {
   text-transform: uppercase;
   margin-left: 40px;
   margin-top: 40px;
+  font-family: 'Poiret One', cursive;
 }
 body .wrapper main .sections_data {
   margin-top: 250px;
