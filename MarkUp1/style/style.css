@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background: url('../images/background.jpg') no-repeat;
+  background-size: cover;
+}
+body .wrapper {
+  display: flex;
+  width: 1024px;
+  height: 1500px;
+  margin: 0 auto;
+}
+body .wrapper a {
+  text-decoration: none;
+  border-bottom: 1px solid #1e9b88;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+body .wrapper a:hover {
+  color: #2c79fe;
+}
+body .wrapper aside.contact_info {
+  background-color: #27d1b8;
+  width: 30%;
+  height: 1500px;
+  border-radius: 25px 0 0 25px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: white;
+  font-family: 'Poiret One', cursive;
+}
+body .wrapper aside.contact_info .contact_photo {
+  width: 160px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 40px 0;
+  margin-left: 75px;
+}
+body .wrapper aside.contact_info h2 {
+  border-bottom: 1px solid white;
+  font-size: 30px;
+  width: 80%;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+body .wrapper aside.contact_info .contact {
+  margin-top: 10px;
+}
+body .wrapper aside.contact_info .contact i {
+  width: 50px;
+  border-radius: 0 33px 33px 0;
+  line-height: 28px;
+}
+body .wrapper aside.contact_info .contact i:before {
+  float: right;
+  padding-left: 6px;
+  padding-top: 3px;
+  padding-right: 6px;
+}
+body .wrapper aside.contact_info .contact i:hover {
+  color: white;
+  background-color: #27d1b8;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+body .wrapper aside.contact_info .contact .fa {
+  background-color: white;
+  color: rgba(56, 58, 55, 0.35);
+  font-size: 20px;
+  padding: 6px 0;
+  width: 60px;
+  border-radius: 0 33px 33px 0;
+}
+body .wrapper aside.contact_info .contact .fab {
+  background-color: white;
+  color: rgba(56, 58, 55, 0.35);
+  font-size: 20px;
+  padding: 6px 0;
+  width: 60px;
+  border-radius: 0 33px 33px 0;
+}
+body .wrapper aside.contact_info .contact .contact_item {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+body .wrapper aside.contact_info .contact .contact_item .item-info {
+  margin-left: 20px;
+}
+body .wrapper aside.contact_info .skills {
+  width: 80%;
+  letter-spacing: 2px;
+  margin-top: 200px;
+  margin-left: 25px;
+  font-family: 'Poiret One', cursive;
+}
+body .wrapper aside.contact_info .skills .contact_skill-item {
+  margin-top: 20px;
+}
+body .wrapper aside.contact_info .skills h2 {
+  width: 100%;
+  border-bottom: 1px solid white;
+  font-size: 30px;
+  margin: 0 auto;
+  color: white;
+}
+body .wrapper aside.contact_info .skills .contact_skill-name {
+  font-weight: 200;
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+body .wrapper aside.contact_info .skills .line {
+  display: flex;
+  align-items: center;
+}
+body .wrapper aside.contact_info .skills .line .level {
+  height: 4px;
+  background-color: white;
+}
+body .wrapper aside.contact_info .skills .line .rest {
+  display: inline-flex;
+  height: 0;
+  background-color: white;
+}
+body .wrapper aside.contact_info .skills .line .level.html {
+  flex: 0 0 100%;
+}
+body .wrapper aside.contact_info .skills .line .rest.html {
+  flex: 0 0 0;
+}
+body .wrapper aside.contact_info .skills .line .level.css {
+  flex: 0 0 90%;
+}
+body .wrapper aside.contact_info .skills .line .rest.css {
+  flex: 0 0 10%;
+}
+body .wrapper aside.contact_info .skills .line .level.less {
+  flex: 0 0 95%;
+}
+body .wrapper aside.contact_info .skills .line .rest.less {
+  flex: 0 0 5%;
+}
+body .wrapper aside.contact_info .skills .line .level.wp {
+  flex: 0 0 70%;
+}
+body .wrapper aside.contact_info .skills .line .rest.wp {
+  flex: 0 0 30%;
+}
+body .wrapper aside.contact_info .skills .line .level.gh {
+  flex: 0 0 80%;
+}
+body .wrapper aside.contact_info .skills .line .rest.gh {
+  flex: 0 0 20%;
+}
+body .wrapper aside.contact_info .skills .line .level.js {
+  flex: 0 0 80%;
+}
+body .wrapper aside.contact_info .skills .line .rest.js {
+  flex: 0 0 20%;
+}
+body .wrapper aside.contact_info .skills .line .level.react {
+  flex: 0 0 50%;
+}
+body .wrapper aside.contact_info .skills .line .rest.react {
+  flex: 0 0 50%;
+}
+body .wrapper main {
+  background-color: #cbfff3;
+  width: 70%;
+  height: 100%;
+  border-radius: 0 25px 25px 0;
+}
+body .wrapper main .contact_name {
+  width: 600px;
+  height: 150px;
+  background-color: #27d1b8;
+  margin-top: 40px;
+  float: right;
+  border-radius: 67px 0 0 67px;
+}
+body .wrapper main .contact_name p {
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 40px;
+  margin-top: 40px;
+  font-family: 'Poiret One', cursive;
+}
+body .wrapper main .sections_data {
+  margin-top: 250px;
+  margin-left: 80px;
+}
+body .wrapper main .sections_data h2 {
+  border-bottom: 1px solid black;
+  font-size: 26px;
+  width: 80%;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-top: 20px;
+  font-family: 'Poiret One', cursive;
+  padding-left: 20px;
+}
+body .wrapper main .sections_data h2:hover {
+  color: white;
+  background-color: #27d1b8;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 50px;
+}
+body .wrapper main .sections_data .summary {
+  width: 80%;
+  text-align: justify;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: 'Poiret One', cursive;
+  color: black;
+}
