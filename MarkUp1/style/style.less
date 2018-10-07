@@ -9,14 +9,21 @@ body {
   width: 100%;
   background: url('../images/background.jpg') no-repeat;
   background-size: cover;
-
   .wrapper {
     display: flex;
     width: 1024px;
     height: 1500px;
     margin: 0 auto;
+    a {
+      text-decoration: none;
+      border-bottom: 1px solid #1e9b88;
+      padding-bottom: 3px;
+      cursor: pointer;
+      &:hover {
+        color: #2c79fe;
 
-
+      }
+    }
     aside.contact_info {
       background-color: #27d1b8;
       width: 30%;
@@ -27,8 +34,6 @@ body {
       letter-spacing: 2px;
       color: white;
       font-family: 'Poiret One', cursive;
-
-
       .contact_photo {
         width: 160px;
         height: 150px;
@@ -44,59 +49,48 @@ body {
         margin-left: 20px;
       }
       .contact {
-      margin-top: 10px;
-
+        margin-top: 10px;
         i {
-          background-color: grey;
-          color: grey;
-          font-size: 14px;
           width: 50px;
           border-radius: 0 33px 33px 0;
           line-height: 28px;
-          height: auto;
-
           &:before {
             float: right;
-            padding: 0 6px;
-
+            padding-left: 6px;
+            padding-top: 3px;
+            padding-right: 6px;
+          }
+          &:hover {
+            color: white;
+            background-color: #27d1b8;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
           }
         }
-
         .fa {
           background-color: white;
           color: rgba(56, 58, 55, 0.35);
-          font-size: 14px;
+          font-size: 20px;
           padding: 6px 0;
           width: 60px;
           border-radius: 0 33px 33px 0;
-
         }
-
         .fab {
           background-color: white;
           color: rgba(56, 58, 55, 0.35);
-          font-size: 14px;
+          font-size: 20px;
           padding: 6px 0;
           width: 60px;
           border-radius: 0 33px 33px 0;
         }
-
         .contact_item {
           margin-top: 25px;
           display: flex;
           flex-direction: row;
           justify-content: flex-start;
-
-
           .item-info {
-
-          margin-left: 20px;
-
+            margin-left: 20px;
+          }
         }
-        }
-
-
-
       }
       .skills {
         width: 80%;
@@ -104,88 +98,67 @@ body {
         margin-top: 200px;
         margin-left: 25px;
         font-family: 'Poiret One', cursive;
-
         .contact_skill-item {
           margin-top: 20px;
         }
-
-       h2 {
+        h2 {
           width: 100%;
           border-bottom: 1px solid white;
           font-size: 30px;
           margin: 0 auto;
           color: white;
-
         }
-
         .contact_skill-name {
           font-weight: 200;
           font-family: 'Poiret One', cursive;
           font-size: 20px;
           text-transform: uppercase;
         }
-
         .line {
           display: flex;
           align-items: center;
-
           .level {
-
             height: 4px;
             background-color: white;
           }
-
           .rest {
-
             display: inline-flex;
             height: 0;
             background-color: white;
           }
-
           .level.html {
             flex: 0 0 100%;
           }
-
           .rest.html {
             flex: 0 0 0;
           }
-
           .level.css {
             flex: 0 0 90%;
           }
-
           .rest.css {
             flex: 0 0 10%;
           }
-
           .level.less {
             flex: 0 0 95%;
           }
-
           .rest.less {
             flex: 0 0 5%;
           }
-
           .level.wp {
             flex: 0 0 70%;
           }
-
           .rest.wp {
             flex: 0 0 30%;
           }
-
           .level.gh {
             flex: 0 0 80%;
           }
-
           .rest.gh {
             flex: 0 0 20%;
           }
-
           .level.js {
             flex: 0 0 80%;
           }
-
           .rest.js {
             flex: 0 0 20%;
           }
@@ -193,22 +166,17 @@ body {
           .level.react {
             flex: 0 0 50%;
           }
-
           .rest.react {
             flex: 0 0 50%;
           }
-
         }
       }
-
     }
-
     main {
       background-color: rgb(203, 255, 243);
       width: 70%;
       height: 100%;
       border-radius: 0 25px 25px 0;
-
       .contact_name {
         width: 600px;
         height: 150px;
@@ -216,7 +184,6 @@ body {
         margin-top: 40px;
         float: right;
         border-radius: 67px 0 0 67px;
-
         p {
           font-size: 40px;
           color: white;
@@ -226,36 +193,36 @@ body {
           font-family: 'Poiret One', cursive;
         }
       }
- .sections_data {
-   margin-top: 250px;
-   margin-left: 80px;
-
-   h2 {
-     border-bottom: 2px solid black;
-     font-size: 26px;
-     width: 80%;
-     color: black;
-     text-transform: uppercase;
-     letter-spacing: 2px;
-     font-weight: 500;
-     margin-top: 20px;
-     font-family: 'Poiret One', cursive;
-
-   }
-
-   .summary {
-     width: 80%;
-     text-align: justify;
-     margin-top: 20px;
-     font-size: 20px;
-     font-family: 'Poiret One', cursive;
-     color: black;
-   }
- }
-
-
+      .sections_data {
+        margin-top: 250px;
+        margin-left: 80px;
+        h2 {
+          border-bottom: 1px solid black;
+          font-size: 26px;
+          width: 80%;
+          color: black;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          font-weight: 500;
+          margin-top: 20px;
+          font-family: 'Poiret One', cursive;
+          padding-left: 20px;
+          &:hover {
+            color: white;
+            background-color: #27d1b8;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            border-radius: 50px;
+          }
+        }
+        .summary {
+          width: 80%;
+          text-align: justify;
+          margin-top: 20px;
+          font-size: 20px;
+          font-family: 'Poiret One', cursive;
+          color: black;
+        }
+      }
     }
-
   }
-
 }

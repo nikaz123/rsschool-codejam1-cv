@@ -14,6 +14,15 @@ body .wrapper {
   height: 1500px;
   margin: 0 auto;
 }
+body .wrapper a {
+  text-decoration: none;
+  border-bottom: 1px solid #1e9b88;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+body .wrapper a:hover {
+  color: #2c79fe;
+}
 body .wrapper aside.contact_info {
   background-color: #27d1b8;
   width: 30%;
@@ -43,22 +52,25 @@ body .wrapper aside.contact_info .contact {
   margin-top: 10px;
 }
 body .wrapper aside.contact_info .contact i {
-  background-color: grey;
-  color: grey;
-  font-size: 14px;
   width: 50px;
   border-radius: 0 33px 33px 0;
   line-height: 28px;
-  height: auto;
 }
 body .wrapper aside.contact_info .contact i:before {
   float: right;
-  padding: 0 6px;
+  padding-left: 6px;
+  padding-top: 3px;
+  padding-right: 6px;
+}
+body .wrapper aside.contact_info .contact i:hover {
+  color: white;
+  background-color: #27d1b8;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 body .wrapper aside.contact_info .contact .fa {
   background-color: white;
   color: rgba(56, 58, 55, 0.35);
-  font-size: 14px;
+  font-size: 20px;
   padding: 6px 0;
   width: 60px;
   border-radius: 0 33px 33px 0;
@@ -66,7 +78,7 @@ body .wrapper aside.contact_info .contact .fa {
 body .wrapper aside.contact_info .contact .fab {
   background-color: white;
   color: rgba(56, 58, 55, 0.35);
-  font-size: 14px;
+  font-size: 20px;
   padding: 6px 0;
   width: 60px;
   border-radius: 0 33px 33px 0;
@@ -185,7 +197,7 @@ body .wrapper main .sections_data {
   margin-left: 80px;
 }
 body .wrapper main .sections_data h2 {
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   font-size: 26px;
   width: 80%;
   color: black;
@@ -194,6 +206,13 @@ body .wrapper main .sections_data h2 {
   font-weight: 500;
   margin-top: 20px;
   font-family: 'Poiret One', cursive;
+  padding-left: 20px;
+}
+body .wrapper main .sections_data h2:hover {
+  color: white;
+  background-color: #27d1b8;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 50px;
 }
 body .wrapper main .sections_data .summary {
   width: 80%;
